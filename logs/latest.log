@@ -1,0 +1,45 @@
+[07Mar2026 21:05:42.843] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[07Mar2026 21:05:42.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[07Mar2026 21:05:42.853] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07Mar2026 21:05:42.999] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[07Mar2026 21:05:43.144] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[07Mar2026 21:05:43.583] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Mar2026 21:05:43.909] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[07Mar2026 21:05:50.658] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 61.1.3, for MC 1.21.11 with MCP 20251223.124241
+[07Mar2026 21:05:50.659] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v61.1.3 Initialized
+[07Mar2026 21:05:50.667] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[07Mar2026 21:05:51.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Mar2026 21:05:52.112] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07Mar2026 21:05:52.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 61.1.3 Target: null
+[07Mar2026 21:05:54.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1470 recipes
+[07Mar2026 21:05:54.768] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1584 advancements
+[07Mar2026 21:05:55.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.11
+[07Mar2026 21:05:55.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Mar2026 21:05:55.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[07Mar2026 21:05:55.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Mar2026 21:05:55.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Mar2026 21:05:55.540] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Mar2026 21:05:55.541] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Mar2026 21:05:55.542] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Mar2026 21:05:55.543] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Mar2026 21:05:55.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Mar2026 21:05:55.858] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[07Mar2026 21:05:55.860] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[07Mar2026 21:05:55.871] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 14 ms
+[07Mar2026 21:05:55.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.313s)! For help, type "help"
+[07Mar2026 21:05:55.916] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Mar2026 21:06:05.824] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Necookie[/127.0.0.1:63201] logged in with entity id 1 at (9.5, -60.0, -8.5)
+[07Mar2026 21:06:05.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie joined the game
+[07Mar2026 21:08:08.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Necookie a server operator
+[07Mar2026 21:09:08.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Command Block] to Necookie
+[07Mar2026 21:13:14.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[07Mar2026 21:13:14.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Mar2026 21:13:14.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Mar2026 21:13:14.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Mar2026 21:13:14.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07Mar2026 21:13:16.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07Mar2026 21:13:16.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07Mar2026 21:13:16.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Mar2026 21:13:16.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2026 21:13:16.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2026 21:13:16.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
