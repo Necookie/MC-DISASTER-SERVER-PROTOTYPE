@@ -1,15 +1,1 @@
-{
-  "stats": {
-    "minecraft:custom": {
-      "minecraft:sprint_one_cm": 465,
-      "minecraft:time_since_rest": 8578,
-      "minecraft:walk_one_cm": 1455,
-      "minecraft:total_world_time": 8578,
-      "minecraft:fly_one_cm": 3300,
-      "minecraft:play_time": 8578,
-      "minecraft:jump": 1,
-      "minecraft:time_since_death": 8578
-    }
-  },
-  "DataVersion": 4671
-}
+{"stats":{"minecraft:used":{"minecraft:oak_trapdoor":8,"minecraft:oak_door":2,"minecraft:water_bucket":23,"minecraft:oak_slab":80,"minecraft:command_block":16,"minecraft:birch_planks":164,"minecraft:spruce_stairs":22,"minecraft:bucket":28,"minecraft:oak_planks":134,"minecraft:stone_button":11,"minecraft:glass_pane":8,"minecraft:spruce_trapdoor":18,"minecraft:stripped_spruce_log":82},"minecraft:custom":{"minecraft:time_since_rest":116328,"minecraft:crouch_one_cm":1819,"minecraft:sprint_one_cm":5393,"minecraft:play_time":116328,"minecraft:walk_one_cm":51509,"minecraft:sneak_time":1062,"minecraft:walk_under_water_one_cm":645,"minecraft:jump":60,"minecraft:leave_game":6,"minecraft:walk_on_water_one_cm":10742,"minecraft:time_since_death":116328,"minecraft:total_world_time":116328,"minecraft:fly_one_cm":116786}},"DataVersion":3700}

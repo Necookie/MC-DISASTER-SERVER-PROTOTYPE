@@ -1,45 +1,76 @@
-[07Mar2026 21:05:42.843] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[07Mar2026 21:05:42.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
-[07Mar2026 21:05:42.853] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[07Mar2026 21:05:42.999] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[07Mar2026 21:05:43.144] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[07Mar2026 21:05:43.583] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[07Mar2026 21:05:43.909] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[07Mar2026 21:05:50.658] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 61.1.3, for MC 1.21.11 with MCP 20251223.124241
-[07Mar2026 21:05:50.659] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v61.1.3 Initialized
-[07Mar2026 21:05:50.667] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[07Mar2026 21:05:51.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[07Mar2026 21:05:52.112] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[07Mar2026 21:05:52.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 61.1.3 Target: null
-[07Mar2026 21:05:54.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1470 recipes
-[07Mar2026 21:05:54.768] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1584 advancements
-[07Mar2026 21:05:55.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.11
-[07Mar2026 21:05:55.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[07Mar2026 21:05:55.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[07Mar2026 21:05:55.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[07Mar2026 21:05:55.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[07Mar2026 21:05:55.540] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07Mar2026 21:05:55.541] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[07Mar2026 21:05:55.542] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07Mar2026 21:05:55.543] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[07Mar2026 21:05:55.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[07Mar2026 21:05:55.858] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[07Mar2026 21:05:55.860] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[07Mar2026 21:05:55.871] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 14 ms
-[07Mar2026 21:05:55.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.313s)! For help, type "help"
-[07Mar2026 21:05:55.916] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[07Mar2026 21:06:05.824] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Necookie[/127.0.0.1:63201] logged in with entity id 1 at (9.5, -60.0, -8.5)
-[07Mar2026 21:06:05.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie joined the game
-[07Mar2026 21:08:08.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Necookie a server operator
-[07Mar2026 21:09:08.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Command Block] to Necookie
-[07Mar2026 21:13:14.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[07Mar2026 21:13:14.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[07Mar2026 21:13:14.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[07Mar2026 21:13:14.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[07Mar2026 21:13:14.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07Mar2026 21:13:16.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[07Mar2026 21:13:16.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[07Mar2026 21:13:16.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07Mar2026 21:13:16.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07Mar2026 21:13:16.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07Mar2026 21:13:16.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07Mar2026 22:22:36.144] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[07Mar2026 22:22:36.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[07Mar2026 22:22:36.158] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07Mar2026 22:22:36.501] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[07Mar2026 22:22:36.779] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[07Mar2026 22:22:37.463] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Mar2026 22:22:40.229] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Mar2026 22:22:40.231] [main/ERROR] [mixin/]: Mixin config worldedit-forge.mixins.json does not specify "minVersion" property
+[07Mar2026 22:22:40.238] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[07Mar2026 22:22:41.391] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties]
+[07Mar2026 22:22:42.040] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties]
+[07Mar2026 22:22:59.192] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.2.4, for MC 1.20.4 with MCP 20231207.112700
+[07Mar2026 22:22:59.195] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.2.4 Initialized
+[07Mar2026 22:22:59.276] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[07Mar2026 22:23:02.841] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Mar2026 22:23:03.298] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@616a76ea]
+[07Mar2026 22:23:03.314] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.3.0+6678-55745ad) is loaded
+[07Mar2026 22:23:04.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 49.2.4 Target: null
+[07Mar2026 22:23:05.799] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07Mar2026 22:23:10.286] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[07Mar2026 22:23:11.807] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[07Mar2026 22:23:12.304] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[07Mar2026 22:23:14.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
+[07Mar2026 22:23:14.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Mar2026 22:23:14.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[07Mar2026 22:23:14.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Mar2026 22:23:14.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Mar2026 22:23:14.502] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[07Mar2026 22:23:14.658] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Mar2026 22:23:14.659] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Mar2026 22:23:14.665] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Mar2026 22:23:14.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Mar2026 22:23:14.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Mar2026 22:23:15.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Mar2026 22:23:18.274] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.279] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.283] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.314] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.318] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.324] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.329] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:18.620] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Mar2026 22:23:19.119] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[07Mar2026 22:23:19.620] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[07Mar2026 22:23:19.803] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4685 ms
+[07Mar2026 22:23:19.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.101s)! For help, type "help"
+[07Mar2026 22:23:19.834] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Mar2026 22:23:56.003] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Necookie[/127.0.0.1:51022] logged in with entity id 20 at (24.781999270452598, -60.0, -15.985972355447887)
+[07Mar2026 22:23:56.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie joined the game
+[07Mar2026 22:36:35.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
+[07Mar2026 22:40:54.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'minecraft:command'
+[07Mar2026 22:40:54.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: give @p command block<--[HERE]
+[07Mar2026 22:43:36.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Created new objective [simTimer]]
+[07Mar2026 22:43:45.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Command Block] to Necookie
+[07Mar2026 22:46:31.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
+[07Mar2026 22:46:46.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 22:49:26.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 22:54:21.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 22:55:51.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
+[07Mar2026 23:00:14.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Changed the block at 26, -59, -11]
+[07Mar2026 23:00:34.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Changed the block at 26, -60, -11]
+[07Mar2026 23:06:43.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
+[07Mar2026 23:07:03.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set display slot sidebar to show objective simTimer]
+[07Mar2026 23:07:07.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 23:07:51.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 23:09:28.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 23:11:29.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Gamerule doFireTick is now set to: true]
+[07Mar2026 23:11:38.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 23:12:00.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Necookie> execute as @a[scores={simTimer=600}] run say FIRE START TRIGGERED
+[07Mar2026 23:12:14.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Successfully filled 25 block(s)]
+[07Mar2026 23:18:10.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the weather to clear]
+[07Mar2026 23:18:12.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
+[07Mar2026 23:18:15.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 23:19:50.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Teleported Necookie to 26.500000, -60.000000, -10.500000]
+[07Mar2026 23:25:04.697] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Necookie lost connection: Disconnected
+[07Mar2026 23:25:04.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie left the game

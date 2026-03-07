@@ -1,7 +1,7 @@
 @echo off
 REM Add custom JVM arguments (such as RAM allocation) to the user_jvm_args.txt
 
-java -jar forge-1.21.11-61.1.3-shim.jar --onlyCheckJava
+java -jar forge-1.20.4-49.2.4-shim.jar --onlyCheckJava
 if %ERRORLEVEL% NEQ 0 (
     echo.
     echo If you're struggling to fix the error above, ask for help on the forums or Discord mentioned in the readme.
@@ -9,7 +9,7 @@ if %ERRORLEVEL% NEQ 0 (
 )
 
 REM Add custom program arguments (such as nogui) to the next line before the %* or pass them to this script directly
-java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.21.11-61.1.3/win_args.txt %*
+java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.4-49.2.4/win_args.txt %*
 
 :exit
 pause
