@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 26,
+    "description": "Disaster simulation prototype: command trigger, timed fire event, return and restore"
+  }
+}

@@ -1,0 +1,27 @@
+FIRESIM THESIS PROTOTYPE - DOCS POINTER
+
+Project root:
+C:\Users\dheyn\Documents\03_RnD\mc-disaster-server-prototype
+
+Primary docs:
+1) Datapack README (full system guide)
+C:\Users\dheyn\Documents\03_RnD\mc-disaster-server-prototype\world\datapacks\firesim_thesis\README.md
+
+2) Commands reference (all firesim commands)
+C:\Users\dheyn\Documents\03_RnD\mc-disaster-server-prototype\world\datapacks\firesim_thesis\commands.md
+
+Quick start (in-game as OP):
+1. /reload
+2. /function firesim:setup/install
+3. Press lobby button at 0 65 4
+
+Most used admin commands:
+1. /function firesim:admin/rebuild_everything
+2. /function firesim:setup/reset_system
+3. /function firesim:reset/restore_structure
+
+Emergency recovery:
+1. /reload
+2. /function firesim:admin/rebuild_everything
+3. /function firesim:setup/reset_system
+4. /tp @a 0.5 65 0.5 180 0

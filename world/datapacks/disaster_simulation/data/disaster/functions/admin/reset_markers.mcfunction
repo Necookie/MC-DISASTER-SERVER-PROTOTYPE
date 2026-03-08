@@ -1,0 +1,5 @@
+kill @e[type=minecraft:marker,tag=ds_lobby_spawn]
+kill @e[type=minecraft:marker,tag=ds_sim_spawn]
+kill @e[type=minecraft:marker,tag=ds_sim_min]
+kill @e[type=minecraft:marker,tag=ds_ignite]
+tellraw @s [{"text":"[DisasterSim] All markers removed.","color":"yellow"}]

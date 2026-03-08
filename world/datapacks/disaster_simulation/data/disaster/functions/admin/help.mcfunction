@@ -1,0 +1,8 @@
+tellraw @s [{"text":"=== DisasterSim Setup ===","color":"gold"}]
+tellraw @s [{"text":"Fixed coordinates are auto-applied on /reload","color":"yellow"}]
+tellraw @s [{"text":"- Lobby: 75 -60 -4","color":"yellow"}]
+tellraw @s [{"text":"- Simulation: 27 -60 -12","color":"yellow"}]
+tellraw @s [{"text":"1) Edit size in data/disaster/functions/runtime/snapshot_region.mcfunction","color":"yellow"}]
+tellraw @s [{"text":"2) Run /reload","color":"yellow"}]
+tellraw @s [{"text":"3) With clean building, run /function disaster:admin/capture_baseline","color":"yellow"}]
+tellraw @s [{"text":"4) Start simulation any time: /function disaster:start","color":"yellow"}]

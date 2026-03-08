@@ -1,0 +1,1 @@
+function disaster:simulation/start
