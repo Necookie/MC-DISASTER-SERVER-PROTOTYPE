@@ -5,7 +5,9 @@ This file lists all commands for the `firesim` datapack.
 ## Quick Start (Operator)
 1. `/reload`
 2. `/function firesim:setup/install`
-3. Press lobby button at `0 65 4`
+3. Press lobby button:
+- Fire: `0 65 4`
+- Earthquake: `2 65 4`
 
 ## Main Operator Commands
 1. `/function firesim:setup/install`
@@ -29,11 +31,18 @@ This file lists all commands for the `firesim` datapack.
 
 ## Runtime Debug Commands
 1. `/function firesim:runtime/start_simulation`
-2. `/function firesim:runtime/start_fire`
-3. `/function firesim:runtime/active_tick`
-4. `/function firesim:runtime/reignite`
-5. `/function firesim:runtime/stop_fire`
-6. `/function firesim:runtime/return_to_lobby`
+2. `/function firesim:runtime/start_fire_simulation`
+3. `/function firesim:runtime/start_earthquake_simulation`
+4. `/function firesim:runtime/start_fire`
+5. `/function firesim:runtime/start_earthquake`
+6. `/function firesim:runtime/active_tick`
+7. `/function firesim:runtime/reignite`
+8. `/function firesim:runtime/earthquake_tick`
+9. `/function firesim:runtime/stop_fire`
+10. `/function firesim:runtime/stop_earthquake`
+11. `/function firesim:runtime/return_to_lobby`
+12. `/function firesim:runtime/earthquake_cracks`
+13. `/function firesim:runtime/earthquake_structural_damage`
 
 Use these only for debugging/inspection. Normal flow is button-driven.
 
@@ -60,7 +69,11 @@ Run in this order if behavior gets out of sync:
 
 ## Notes
 - During simulation start, datapack sets:
-  - `gamerule doFireTick true`
-  - `gamerule randomTickSpeed 30`
+  - fire mode:
+    - `gamerule doFireTick true`
+    - `gamerule randomTickSpeed 30`
+  - earthquake mode:
+    - `gamerule doFireTick false`
+    - `gamerule randomTickSpeed 3`
 - On return to lobby, it restores:
   - `gamerule randomTickSpeed 3`

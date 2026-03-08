@@ -5,11 +5,11 @@ Datapack folder: `world/datapacks/firesim_thesis`
 
 This prototype provides a complete disaster-demo loop:
 1. Spawn in lobby
-2. Press button to start
+2. Press fire or earthquake button to start
 3. Teleport to simulation zone
 4. 5-second countdown
-5. Fire simulation runs with visible timer
-6. Fire stops, structure is restored, players return to lobby
+5. Disaster simulation runs with visible timer
+6. Simulation stops, structure is restored, players return to lobby
 7. System resets and is reusable
 
 Main implementation is datapack functions + scoreboards (no command-block spaghetti).
@@ -22,9 +22,10 @@ Main implementation is datapack functions + scoreboards (no command-block spaghe
 - Auto-built around `0 65 0`
 - Floating text:
   - `Welcome to the Lobby`
-  - `Fire Simulation`
-  - `Press Button to Start`
-- Start button at `0 65 4`
+  - `Disaster Simulation`
+  - `Left: Fire | Right: Earthquake`
+- Fire button at `0 65 4`
+- Earthquake button at `2 65 4`
 
 ### Fire Simulation Zone (Large School)
 - Simulation center/spawn: `26 -60 -11`
@@ -47,6 +48,23 @@ Main implementation is datapack functions + scoreboards (no command-block spaghe
 - On return to lobby:
   - `randomTickSpeed` restored to `3`
 
+### Earthquake Behavior
+- Pre-event countdown: `5s`
+- Quake runtime: `45s`
+- High-magnitude earthquake pulse twice per second:
+  - rumble sounds + dust particles
+  - status-effect-free shake via stronger lateral movement/jitter
+  - heavy falling debris entities with impact damage on hit
+- Progressive floor cracking:
+  - early visible cracks
+  - mid-stage unstable fractured floor
+  - late-stage open floor breaks (holes)
+- Progressive structural failure:
+  - window/wall panel blowouts
+  - roof and side-wall partial collapses
+  - late-stage heavy interior collapse sections
+- Debris is cleaned up on stop/return
+
 ---
 
 ## Architecture
@@ -59,11 +77,18 @@ Main implementation is datapack functions + scoreboards (no command-block spaghe
   - `2` = active simulation
   - `3` = cooldown/return
 
+### Mode Selector
+- Objective: `fs_mode`
+- Values:
+  - `1` = fire
+  - `2` = earthquake
+
 ### Runtime Objectives
 - `fs_state` (state control)
 - `fs_sec` (second counter)
 - `fs_tick` (tick counter)
 - `fs_math`, `fs_const` (utility/constants)
+- `fs_mode` (fire/earthquake mode)
 
 ### Core Tags
 - `firesim_in_sim` (participants in current run)
@@ -98,12 +123,18 @@ firesim_thesis/
           backup.mcfunction
         runtime/
           check_start_button.mcfunction
+          start_fire_simulation.mcfunction
+          start_earthquake_simulation.mcfunction
           start_simulation.mcfunction
           prefire_tick.mcfunction
           start_fire.mcfunction
+          start_earthquake.mcfunction
           active_tick.mcfunction
           reignite.mcfunction
+          earthquake_tick.mcfunction
+          earthquake_structural_damage.mcfunction
           stop_fire.mcfunction
+          stop_earthquake.mcfunction
           cooldown_tick.mcfunction
           return_to_lobby.mcfunction
           lobby_ui_tick.mcfunction
@@ -125,7 +156,8 @@ firesim_thesis/
 4. Run:
    - `/function firesim:setup/install`
 5. Press lobby button at:
-   - `0 65 4`
+   - fire: `0 65 4`
+   - earthquake: `2 65 4`
 
 No structure block and no command block are required for standard operation.
 
@@ -137,7 +169,7 @@ No structure block and no command block are required for standard operation.
 2. Player presses start button.
 3. Player teleports to `26 -60 -11`.
 4. Actionbar shows prefire countdown (`5` to `1`).
-5. Fire ignites across school zones.
+5. Disaster event starts (fire ignition or earthquake pulses/debris).
 6. Actionbar shows runtime timer (`45` to `1`).
 7. Simulation completes:
    - fire extinguished
@@ -165,7 +197,7 @@ This makes it reusable for repeated thesis demos without manual rebuilding.
 3. Press button once and verify:
    - teleport to simulation
    - 5-second countdown
-   - visible ignition and spread
+   - visible event behavior (fire spread or quake debris)
    - 45-second actionbar timer
    - completion title
    - teleport back to lobby

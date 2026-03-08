@@ -1,86 +1,90 @@
-[08Mar2026 19:11:42.810] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
-[08Mar2026 19:11:42.819] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
-[08Mar2026 19:11:42.823] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[08Mar2026 19:11:43.108] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[08Mar2026 19:11:43.302] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
-[08Mar2026 19:11:43.693] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Mar2026 19:11:45.137] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Mar2026 19:11:45.137] [main/ERROR] [mixin/]: Mixin config worldedit-forge.mixins.json does not specify "minVersion" property
-[08Mar2026 19:11:45.139] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
-[08Mar2026 19:11:45.653] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties]
-[08Mar2026 19:11:46.011] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties]
-[08Mar2026 19:11:58.925] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.2.4, for MC 1.20.4 with MCP 20231207.112700
-[08Mar2026 19:11:58.930] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.2.4 Initialized
-[08Mar2026 19:11:59.171] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[08Mar2026 19:12:01.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Mar2026 19:12:01.271] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@51ff635f]
-[08Mar2026 19:12:01.286] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.3.0+6678-55745ad) is loaded
-[08Mar2026 19:12:02.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 49.2.4 Target: null
-[08Mar2026 19:12:02.792] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08Mar2026 19:12:03.742] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/firesim_thesis, loading it automatically
-[08Mar2026 19:12:04.862] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[08Mar2026 19:12:05.558] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:12:05.800] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:12:06.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
-[08Mar2026 19:12:06.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Mar2026 19:12:06.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[08Mar2026 19:12:06.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Mar2026 19:12:06.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Mar2026 19:12:06.832] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[08Mar2026 19:12:06.945] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Mar2026 19:12:06.946] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Mar2026 19:12:06.947] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Mar2026 19:12:06.947] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Mar2026 19:12:07.040] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Mar2026 19:12:07.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Mar2026 19:12:09.498] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2026 19:12:09.500] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2026 19:12:09.501] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2026 19:12:09.503] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2026 19:12:09.505] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Mar2026 19:12:09.795] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[08Mar2026 19:12:10.350] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[08Mar2026 19:12:10.567] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3274 ms
-[08Mar2026 19:12:10.569] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.595s)! For help, type "help"
-[08Mar2026 19:12:10.596] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Mar2026 19:12:38.089] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Necookie[/127.0.0.1:55208] logged in with entity id 28 at (45.704680289286365, -60.0, -29.001614723536193)
-[08Mar2026 19:12:38.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie joined the game
-[08Mar2026 19:12:45.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
-[08Mar2026 19:12:49.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the weather to clear]
-[08Mar2026 19:13:01.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:13:01.918] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:13:02.012] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:13:11.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/install]
-[08Mar2026 19:15:04.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:15:04.818] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:15:04.919] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:15:17.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/install]
-[08Mar2026 19:16:03.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:16:03.614] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:16:03.687] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:16:04.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
-[08Mar2026 19:16:13.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/reset_system]
-[08Mar2026 19:19:48.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:19:48.819] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:19:48.909] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:20:07.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
-[08Mar2026 19:21:53.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set the time to 1000]
-[08Mar2026 19:23:27.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:23:27.779] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:23:27.844] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:23:39.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
-[08Mar2026 19:24:31.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/reset_system]
-[08Mar2026 19:24:44.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set own game mode to Survival Mode]
-[08Mar2026 19:26:53.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:26:54.058] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:26:54.119] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:27:01.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
-[08Mar2026 19:27:13.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/reset_system]
-[08Mar2026 19:27:22.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Removed 8 item(s) from player Necookie]
-[08Mar2026 19:36:41.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/reset_system]
-[08Mar2026 19:42:57.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
-[08Mar2026 19:42:57.747] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Mar2026 19:42:57.822] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[08Mar2026 19:43:08.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
-[08Mar2026 19:43:33.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/reset_system]
-[08Mar2026 19:43:57.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Removed 1 item(s) from player Necookie]
+[08Mar2026 21:44:33.965] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[08Mar2026 21:44:33.977] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[08Mar2026 21:44:33.977] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[08Mar2026 21:44:34.079] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[08Mar2026 21:44:34.202] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[08Mar2026 21:44:34.771] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[08Mar2026 21:44:35.982] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Mar2026 21:44:35.984] [main/ERROR] [mixin/]: Mixin config worldedit-forge.mixins.json does not specify "minVersion" property
+[08Mar2026 21:44:35.989] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[08Mar2026 21:44:36.724] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.properties]
+[08Mar2026 21:44:37.061] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/dheyn/Documents/03_RnD/mc-disaster-server-prototype/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar!/oshi.architecture.properties]
+[08Mar2026 21:44:43.292] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.2.4, for MC 1.20.4 with MCP 20231207.112700
+[08Mar2026 21:44:43.295] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.2.4 Initialized
+[08Mar2026 21:44:43.358] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[08Mar2026 21:44:44.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Mar2026 21:44:45.012] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40873904]
+[08Mar2026 21:44:45.019] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.3.0+6678-55745ad) is loaded
+[08Mar2026 21:44:45.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 49.2.4 Target: null
+[08Mar2026 21:44:48.585] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08Mar2026 21:44:51.199] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[08Mar2026 21:44:51.857] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 21:44:52.334] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 21:44:53.493] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
+[08Mar2026 21:44:53.494] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Mar2026 21:44:53.494] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[08Mar2026 21:44:53.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Mar2026 21:44:53.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Mar2026 21:44:53.681] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[08Mar2026 21:44:53.748] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Mar2026 21:44:53.749] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Mar2026 21:44:53.749] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Mar2026 21:44:53.750] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Mar2026 21:44:53.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Mar2026 21:44:54.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Mar2026 21:44:56.349] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2026 21:44:56.351] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2026 21:44:56.352] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2026 21:44:56.356] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2026 21:44:56.358] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2026 21:44:56.509] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Mar2026 21:44:57.003] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[08Mar2026 21:44:57.503] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[08Mar2026 21:44:58.003] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[08Mar2026 21:44:58.067] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4065 ms
+[08Mar2026 21:44:58.070] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.305s)! For help, type "help"
+[08Mar2026 21:44:58.109] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Mar2026 21:45:33.714] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Necookie[/127.0.0.1:62053] logged in with entity id 35 at (7.66967968934023, 65.0, -3.2712567883360695)
+[08Mar2026 21:45:33.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie joined the game
+[08Mar2026 21:45:48.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/install]
+[08Mar2026 21:52:38.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:setup/install]
+[08Mar2026 21:52:42.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 21:52:43.109] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 21:52:43.221] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 21:52:51.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie was squashed by a falling block
+[08Mar2026 21:56:49.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 21:56:49.558] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 21:56:49.647] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 21:58:12.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
+[08Mar2026 22:01:06.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
+[08Mar2026 22:01:08.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 22:01:08.305] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 22:01:08.390] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 22:05:29.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Necookie suffocated in a wall
+[08Mar2026 22:05:31.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Necookie moved too quickly! -21.1671788145777,124.0,8.892846994510633
+[08Mar2026 22:06:53.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 22:06:53.364] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 22:06:53.430] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 22:09:05.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 22:09:06.137] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 22:09:06.219] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 22:10:32.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Running function firesim:admin/rebuild_everything]
+[08Mar2026 22:11:24.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 22:11:24.425] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 22:11:24.501] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 22:11:50.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Reloading!]
+[08Mar2026 22:11:50.666] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[08Mar2026 22:11:50.713] [Server thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[08Mar2026 22:13:02.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Gave 1 [Uncraftable Potion] to Necookie]
+[08Mar2026 22:13:12.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set own game mode to Creative Mode]
+[08Mar2026 22:13:24.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Necookie: Set own game mode to Adventure Mode]
+[08Mar2026 22:15:15.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Mar2026 22:15:15.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Mar2026 22:15:15.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Mar2026 22:15:16.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Mar2026 22:15:16.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Mar2026 22:15:16.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Mar2026 22:15:16.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Mar2026 22:15:16.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Mar2026 22:15:16.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Mar2026 22:15:16.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
